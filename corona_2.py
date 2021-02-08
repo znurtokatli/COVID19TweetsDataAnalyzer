@@ -2,6 +2,8 @@
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
+import tweepy
+import datetime
 
 #Variables that contains the user credentials to access Twitter API
 access_token = "1357146000423596032-qS09h1eCqAj6YOwQ2urIg42hdFTdHk"
@@ -48,6 +50,12 @@ if __name__ == '__main__':
                 if datetime.date(2021, 2, 1) < tweet.created_at:
                     stop_loop = True
                     break
+
         # Do the tweet process here
         page+=1
         time.sleep(500)
+
+
+for tweet in results:
+    print(tweet.get('user', {}).get('location', {}))
+
