@@ -2,7 +2,7 @@
 
 This project is designed to identify the impact of COVID-19 on Twitter usage in the state of North Carolina.  
 
-# Description
+## Description
 
 The team hypothesizes that twitter references to COVID-19 are positively correlated with the progression of the virus.  
 Is that consistent with Twitter COVID-19  references in North Carolina. By leveraging data sources for both Twitter and COVID-19 the team plans to answer the following:   
@@ -12,7 +12,7 @@ Is that consistent with Twitter COVID-19  references in North Carolina. By lever
 •As the number of cases and deaths increased, did Twitter retweets increase.  
 •Is North Carolina a good representation of US COVID-19 trends and what thereby can be inferred about Twitter usage.
 
-## Installation
+# Installation
 
 
 ## Usage
@@ -20,7 +20,7 @@ Is that consistent with Twitter COVID-19  references in North Carolina. By lever
 
 
 ## Contributing
-# Team Members 
+ Team Members 
 Hector Ladero (@hladero) 
 Jimmy White (@jimmywhite1987)
 Lauren Parrish (@LJeanParrish)
@@ -29,3 +29,4 @@ Zehranur Tokatli (@znurtokatli)
  
 ### License
 UNCC 
+
